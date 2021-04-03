@@ -1,0 +1,33 @@
+<idea-plugin>
+    <id>ru.balmukanov.xsddiagram</id>
+    <name>xsddiagram</name>
+    <version>0.0.1</version>
+    <vendor email="balmukanovab@gmail.com" url="https://www.linkedin.com/in/anarbek/">Balmukanov Anarbek</vendor>
+
+    <description><![CDATA[
+      Visual diagram for .xsd files<br/>
+      Use plugin as xsd viewer
+    ]]></description>
+
+    <change-notes><![CDATA[
+      0.0.1 - betta version<br />
+      This add minimal functional for view xsd scheme
+    ]]>
+    </change-notes>
+
+    <!-- please see https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+    <idea-version since-build="173.0"/>
+
+    <!-- please see https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+         on how to target different products -->
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+    </extensions>
+
+    <actions>
+        <!-- Add your actions here -->
+    </actions>
+
+</idea-plugin>
