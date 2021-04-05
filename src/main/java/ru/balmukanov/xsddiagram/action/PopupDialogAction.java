@@ -1,4 +1,4 @@
-package ru.balmukanov.tomato.action;
+package ru.balmukanov.xsddiagram.action;
 
 import com.intellij.notification.Notification;
 import com.intellij.notification.NotificationType;
